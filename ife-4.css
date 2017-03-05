@@ -1,0 +1,45 @@
+
+body{
+    border:gray 1px solid;
+    margin: 0px;
+    padding:0;
+    width:80%;
+    height:600px;
+    position:relative;
+    min-width: 450px;
+}
+
+#gray{
+    position:absolute;
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+}
+
+#gray{
+    margin: auto;
+    width: 400px;
+    height:200px;
+    background-color:#ccc;
+}
+
+#left-yellow{
+    position:relative;
+    left:0;
+    top:0;
+    width:50px;
+    height:50px;
+    background-color:#fc0;
+    border-radius:0 0 50px 0;
+}
+
+#right-yellow{
+    position:relative;
+    left:350px;
+    top:100px;
+    width:50px;
+    height:50px;
+    background-color:#fc0;
+    border-radius:50px 0 0 0;
+}
